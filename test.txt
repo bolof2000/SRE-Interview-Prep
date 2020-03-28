@@ -1,0 +1,8 @@
+ want to count the number of times each word is found in the text file and am not sure what is wrong. I was also having trouble finding a way to include in the count the occurrences where the word is not capitalized as well
+
+the script expects two command-line arguments: the name of an input file and a threshold (an integer)
+The input file contains exactly one word per line, with no whitespace before or after the word. The script does not need to verify the contents of the input file.
+
+The letter case of words in the input file does not matter for counting. For example, the script should count “the”, “The”, and “THE” as the same word.
+
+After counting the words, the script prints a report (to a file, output.txt) that lists the words and their counts. Each word is printed only if its count is greater than or equal to the threshold given on the command line.

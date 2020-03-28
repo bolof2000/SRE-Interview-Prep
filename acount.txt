@@ -1,5 +1,5 @@
 100 Jones 14.98
-200 Doe 20.98
-300 Victor 21.98
+100 Doe 20.98
+100 Victor 21.98
 400 dammy 22.98
 500 Segun 25.98

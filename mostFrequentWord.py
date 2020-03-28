@@ -11,7 +11,7 @@ def solution(words,k):
 		else:
 			dic[word] =1
 
-	for k in dic:
+	for k in dic.keys:
 		heappush(priorityQueue,[dic[k],k])
 
 		if len(priorityQueue)> k:
