@@ -20,6 +20,7 @@ class Solution:
 		result = []
 		while max_Heap:
 			result.append(heappop(max_Heap)[1])
+			#print(heappop(max_Heap)[0])
 		return result
 
 	def mostFrequentElement(self,nums):
@@ -31,15 +32,15 @@ class Solution:
 			else:
 				dic[num] =1
 
-		sortedKey =  list(dic.keys())
-		sortedKey.sort()
-		result.append(sortedKey[len(sortedKey)-1])
-		result.append(sortedKey[len(sortedKey)-2])
+
+		return result
 
 
 sol = Solution()
-points = [[1,3],[-2,2]]
-k = 1
-print(sol.KClosestPointSolution(points,k))
+#points = [[1,3],[-2,2],[3,3]]
+#k = 1
+#print(sol.KClosestPointSolution(points,k))
+
+print(sol.mostFrequentElement([1,1,1,2,3,4,5,6,7,7,7,7]))
 
 
